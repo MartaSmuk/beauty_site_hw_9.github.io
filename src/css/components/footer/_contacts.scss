@@ -1,0 +1,30 @@
+@use "../../partials" as *;
+@use "../../mixins/" as *;
+
+.contacts {
+    @include horizontal-flex-items;
+    padding: 40px 0;
+
+    &__info {
+        @include horizontal-flex-items;
+    }
+
+    &__phone {
+        @include contact-phone;
+    }
+
+    &__call {
+        @include contact-button;
+    }
+
+    &__socialmedia {
+        @include horizontal-flex-items-thin;
+    }
+
+    &__fb-insta {
+        @include sotialmedia-button;
+    }
+    &__icon {
+        padding: 10px;
+    }
+}

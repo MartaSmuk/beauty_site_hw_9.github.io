@@ -1,0 +1,47 @@
+@use "../../partials" as *;
+
+.offers {
+    background-color: $color-primary;
+    padding-bottom: 140px;
+
+    &__heading {
+        font-size: 24px;
+        font-weight: $font-weight-large;
+        padding: 80px 0 38px 0;
+    }
+    &__collection{
+        display: flex;
+        gap: $gap-medium;
+    }
+    &__container {
+        background-color: $color-secondary;
+        display: flex;
+        gap: $gap-small;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 255px;
+        height: 363px;
+    }
+    &__chair {
+        width: 125px;
+        height: 166px;
+    }
+    &__description {
+        color: $link-primary-color;
+        font-size: $font-size;
+        width: 160px;
+        text-align: center;
+    }
+    &__price {
+        color: $link-primary-color;
+        font-size: 21px;
+        font-weight: $font-weight-middle;
+    }
+    &__btn {
+        color: $color-secondary;
+        background-color: $border-primary-color;
+        padding: 10px 60px;
+        border-radius: 30px;
+    }
+}

@@ -1,0 +1,18 @@
+@use "../../partials" as *;
+
+
+.site-nav{
+    padding: 30px 0;
+
+    &__list {
+        display: flex;
+        gap: 20px;
+        font-size: $font-size-middle;
+        justify-content: center;
+    }
+
+    &__item a {
+        color:$link-primary-color;
+    }
+}
+

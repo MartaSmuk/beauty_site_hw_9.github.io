@@ -1,0 +1,40 @@
+@use "../../partials" as *;
+
+.super-chair {
+    background-image: url(../img/chair.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        padding-top: 192px;
+        padding: 190px 0;
+    }
+    &__heading {
+        color: $color-secondary;
+        font-size: 48px;
+        font-weight: $font-weight-large;
+    }
+    &__description {
+        color: $color-secondary;
+        font-size: $font-size;
+        font-weight: $font-weight;
+        padding-top: 53px;
+        width: 260px;
+    }
+
+    &__btn {
+        text-align: center;
+        margin-top: 40px;
+        width: 170px;
+        border-radius: 40px;
+        background-color: $border-primary-color;
+        color: $color-secondary;
+        border: 2px solid $color-secondary;
+        padding: 9px 0;
+    }
+}

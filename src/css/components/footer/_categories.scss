@@ -1,0 +1,35 @@
+@use "../../partials" as *;
+
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+
+    &__collection{
+        width: 255px;
+    }
+    &__wrap {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #EFEFEF;
+        width: 255px;
+    }
+    &__heading {
+        font-size: $font-size-middle;
+        font-weight: $font-weight-middle;
+        line-height: 22.5px;
+        width: 99px;
+    }
+    &__list {
+        font-size: $font-size-mini;
+        font-weight: $font-weight;
+        line-height: 28px;
+        text-align: left;
+        color: $color-list;
+        padding-top: 25px;
+    }
+}
+
+.bottom__line {
+    border-bottom: $border-bottom;
+}

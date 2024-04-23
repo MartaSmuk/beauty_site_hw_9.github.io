@@ -1,0 +1,14 @@
+@use "../../partials" as *;
+@use "../../mixins/" as *;
+
+.policy {
+    background-color: $color-primary;
+
+    &__wrap {
+        @include horizontal-flex-basic;
+    }
+    &__description {
+        @include small-basic-font;
+        padding: 20px 0;
+    }
+}

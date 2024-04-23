@@ -1,0 +1,21 @@
+@use "../../partials" as *;
+@use "../../mixins/" as *;
+
+.content {
+    background-color: $color-secondary;
+    padding: 20px 0;
+    border-bottom: $border-bottom;
+    
+    &__wrap {
+        @include horizontal-flex-basic;
+    }
+    &__contacts {
+        @include horizontal-flex-items;
+    }
+    &__phone {
+        @include contact-phone;  
+    }
+    &__btn {
+        @include contact-button;
+    }
+}

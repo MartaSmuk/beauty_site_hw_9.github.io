@@ -1,0 +1,17 @@
+@use "../../partials" as *;
+
+.navbar {
+    background-color: $color-primary;
+
+    &__list {
+        display: flex;
+        gap: 15px;
+        padding: 17px;
+        justify-content: center;        
+    }
+    &__link {
+        color:  $link-primary-color;
+    }
+}
+
+

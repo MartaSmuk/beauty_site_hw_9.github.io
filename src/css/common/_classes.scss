@@ -1,0 +1,7 @@
+//* - namespace, as * - take all name spaces from the folder "partials"
+@use "../partials" as *; 
+
+.container {
+    width: $container-width;
+    margin: auto;
+}
